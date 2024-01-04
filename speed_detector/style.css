@@ -1,0 +1,14 @@
+body{
+    background: gray;
+    display: flex;
+}
+.container{
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    font-style:italic ;
+    color: aqua;
+}
