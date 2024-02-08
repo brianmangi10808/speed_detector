@@ -1,0 +1,56 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:ital,wght@1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+   
+}
+body{
+    background: url('image/graham-mansfield-ugFO1FcdOFE-unsplash.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: #cacaca;
+    width: 100%;
+    height: 50vh;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0,0,  0,0.06);
+     overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form {
+    width: 100%;
+    border: 10x solid purple;
+    border-radius:4px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 10px;
+}
+#search{
+    margin: 20px;
+}
